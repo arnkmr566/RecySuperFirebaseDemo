@@ -1,0 +1,50 @@
+package com.example.firebasedemo;
+
+public class SampleModal {
+    private String name;
+    private String email;
+    private String age;
+    private String purl;
+
+    public SampleModal() {
+    }
+
+    public SampleModal(String name, String email, String age, String purl) {
+        this.name = name;
+        this.email = email;
+        this.age = age;
+        this.purl = purl;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    public String getPurl() {
+        return purl;
+    }
+
+    public void setPurl(String purl) {
+        this.purl = purl;
+    }
+}
